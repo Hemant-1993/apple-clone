@@ -1,332 +1,388 @@
-#apple{
+#apple {
     width: auto;
     height: auto;
 }
-#navbar{
-display: flex;
-width: auto;
-height: 44px;
-padding: 0px 244px;
-align-items: center;
-background: rgba(0, 0, 0, 0.80);
-margin:auto;
-justify-content: center;
+
+#navbar {
+    display: flex;
+    width: auto;
+    height: 44px;
+    padding: 0px 244px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.80);
+    margin: auto;
+    justify-content: center;
 }
-#navbar>ul{
+
+#navbar>ul {
     list-style-type: none;
     display: flex;
-   gap: 20px;
-   color: #F5F5F7;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 15px;
-font-weight: 300;
-line-height: 25px; /* 138.1% */
-letter-spacing: 0.231px;
+    gap: 20px;
+    color: #F5F5F7;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-#navbar>div{
- display: flex;
- justify-content: space-between;
- padding-inline: 30px;
- align-items: center;
-    
+
+#navbar>div {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    align-items: center;
+
 }
-#navbar>div>i{
+
+#navbar>div>i {
     gap: 20px;
     padding-inline: 30px;
     color: #F5F5F7;
 }
-#list-of-pro{
- display: flex;
-height: 70px;
-padding-inline:5px ;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-gap: 30px;
-margin-top: 25px;
+
+#list-of-pro {
+    display: flex;
+    height: 70px;
+    padding-inline: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 30px;
+    margin-top: 25px;
 }
-.newitem>img{
-width: 50px;
-height: 40px;
-flex-shrink: 0;
-margin-left: 5px;
-transition: all 2s ease ;
+
+.newitem>img {
+    width: 50px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 5px;
+    transition: all 2s ease;
 }
-.newitem>img:hover{
-    transform: scale(150%,150%);
+
+.newitem>img:hover {
+    transform: scale(150%, 150%);
 }
-.newitem>p:first-child{
+
+.newitem>p:first-child {
     color: #1D1D1F;
     text-align: center;
-font-family: SF Pro Text;
-font-size: 12px;
-font-style: normal;
-font-weight: 200;
-line-height: 14px; /* 133.337% */
-letter-spacing: -0.12px;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 14px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
 
 }
-.ptag{
+
+.ptag {
     color: #b9591d;
-text-align: center;
-font-family: SF Pro Text;
-font-size: 10px;
-font-style: normal;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 10px;
+    font-style: normal;
 
-letter-spacing: -0.08px;
+    letter-spacing: -0.08px;
 }
-.items>p{
+
+.items>p {
     color: #1D1D1F;
     text-align: center;
-font-family: SF Pro Text;
-font-size: 12px;
-font-style: normal;
-font-weight: 200;
-line-height: 14px; /* 133.337% */
-letter-spacing: -0.12px
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 14px;
+    /* 133.337% */
+    letter-spacing: -0.12px
 }
-.items>img{
+
+.items>img {
     width: 100px;
     height: 40px;
-    flex-shrink: 0; 
-    transition: all 2s ease ;
+    flex-shrink: 0;
+    transition: all 2s ease;
 }
-.items>img:hover{
-    transform: scale(150%,150%);
+
+.items>img:hover {
+    transform: scale(150%, 150%);
 }
-#iphonephoto{
+
+#iphonephoto {
     display: flex;
-height: 800px;
+    height: 800px;
 
-justify-content: center;
-align-items: center;
-background: #FFF;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
 }
-.photo{
+
+.photo {
     width: 60vw;
-height: 700px
+    height: 700px
+}
+
+.photo1 {
+    text-align: center;
 
 }
-.photo1{
-    text-align: center;
-    
-}
-.photo2{
+
+.photo2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-.photo>div>img{
+
+.photo>div>img {
     width: 600px;
-height: 600px;
-flex-shrink: 0;
-margin-left: 200px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: 200px;
 }
-.photo1>p:first-child{
+
+.photo1>p:first-child {
     color: #6E6E73;
-text-align: center;
-font-family: SF Pro Text;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 147.059% */
-letter-spacing: -0.374px;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
 }
-.photo1>h1{
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; /* 108.349% */
-letter-spacing: -0.144px;
-background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.photo1>h1 {
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.from{
+
+.from {
     color: #1D1D1F;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 138.1% */
-letter-spacing: 0.231px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-.photo2>button{
+
+.photo2>button {
     width: 61.203px;
-height: 36px;
-padding: 8px 15.6px 8px 16px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border-radius: 980px;
-background: #0071E3;
-transition: all 1s ease;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #0071E3;
+    transition: all 1s ease;
 
 }
-.photo2>p{
+
+.photo2>p {
     color: #06C;
     text-align: center;
     font-family: SF Pro Display;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
-    line-height: 29.001px; /* 138.1% */
-    letter-spacing: 0.231px;  
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-.photo2>button:hover{
-    transform: scale(150%,150%);
+
+.photo2>button:hover {
+    transform: scale(150%, 150%);
     background-color: yellowgreen;
 }
-#iphonephoto1{
+
+#iphonephoto1 {
     background: #000;
     display: flex;
-   margin-top: 170px;
-height: 930.5px;
+    margin-top: 170px;
+    height: 930.5px;
 
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
-.photoo1{
+
+.photoo1 {
     text-align: center;
 }
-.photoo1>p:first-child{
+
+.photoo1>p:first-child {
     color: #6E6E73;
-text-align: center;
-font-family: SF Pro Text;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 147.059% */
-letter-spacing: -0.374px;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
 }
-.photoo1>h2{
+
+.photoo1>h2 {
     color: whitesmoke;
     font-family: SF Pro Text;
     font-size: 30px;
 }
-.photoo1>h1{
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; /* 108.349% */
-letter-spacing: -0.144px;
-background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.photoo1>h1 {
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.frompro{
+
+.frompro {
     color: #F5F5F7;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 29.001px; /* 138.1% */
-letter-spacing: 0.231px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-.photo5{
+
+.photo5 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
-#iphonephto2{
+
+#iphonephto2 {
     display: flex;
-height: 750px;
+    height: 750px;
 
-justify-content: flex-end;
-align-items: center;
-flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
 }
-.photo5-1>img{
+
+.photo5-1>img {
     width: 96px;
-height: 22px;
-flex-shrink: 0;
+    height: 22px;
+    flex-shrink: 0;
 }
-.photo5-1>h1{
+
+.photo5-1>h1 {
     text-align: center;
-font-family: SF Pro Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 52.008px; /* 108.349% */
-letter-spacing: -0.144px;
-background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.photo5-1{
-    
+
+.photo5-1 {
+
     text-align: center;
 }
-.photo5-1>p{
+
+.photo5-1>p {
     color: #1D1D1F;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 29.001px; /* 138.1% */
-letter-spacing: 0.231px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
 }
-.latest{
- display: flex;
-justify-content: center;
-align-items: center;
-height: 850px;
-background: #FFF;
+
+.latest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    background: #FFF;
 
 }
-.latest>div{
+
+.latest>div {
     width: 90vw;
     height: 800px;
     background-image: url(./Assets/figure\ \(5\).svg);
 }
-.latest1{
+
+.latest1 {
     margin-top: 400px;
     margin-left: 300px;
 }
-.latest1>h3{
+
+.latest1>h3 {
     color: #FFF;
-font-family: SF Pro Display;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px; /* 116.667% */
-letter-spacing: 0.216px;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: 0.216px;
 }
-.latest1>h1{
+
+.latest1>h1 {
     color: #FFF;
     font-family: SF Pro Display;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 52.008px; /* 108.349% */
-    letter-spacing: -0.144px; 
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
 }
-.latest1>button{
+
+.latest1>button {
     width: 142.234px;
-height: 36px;
-padding: 8px 15.6px 8px 16px;
-border-radius: 980px;
-background: #FFF;
-transition: all 0s ease-in-out ;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+    border-radius: 980px;
+    background: #FFF;
+    transition: all 0s ease-in-out;
 }
-.latest1>button:hover{
-    transform: scale(120% , 150%);
+
+.latest1>button:hover {
+    transform: scale(120%, 150%);
     background-color: #3153C6;
     color: #F5F5F7;
 }
-#give{
+
+#give {
     display: flex;
     height: 617px;
     padding: 0px 36px;
@@ -335,33 +391,37 @@ transition: all 0s ease-in-out ;
     flex-shrink: 0;
     background-color: #FFFFFF;
 }
-.wow{
+
+.wow {
     width: 95vw;
     background: #01012A;
     display: flex;
-height: 587px;
-justify-content: center;
-align-items: center;
+    height: 587px;
+    justify-content: center;
+    align-items: center;
 
-flex-shrink: 0;
+    flex-shrink: 0;
 }
-.wow>div>img{
+
+.wow>div>img {
     width: 106px;
-height: 106px;
-flex-shrink: 0;
-margin-left: 150px;
+    height: 106px;
+    flex-shrink: 0;
+    margin-left: 150px;
 }
-.wow>div>h1{
+
+.wow>div>h1 {
     color: #FFF;
-text-align: center;
-font-family: SF Pro Display;
-font-size: 90px;
-font-style: normal;
-font-weight: 500;
-margin-top: -10px;
-letter-spacing: -0.27px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -10px;
+    letter-spacing: -0.27px;
 }
-.wow>div>p{
+
+.wow>div>p {
     color: #2997FF;
     text-align: center;
     font-family: SF Pro Display;
@@ -369,5 +429,280 @@ letter-spacing: -0.27px;
     font-style: normal;
     font-weight: 400;
     margin-top: -50px;
-    letter-spacing: 0.231px;  
+    letter-spacing: 0.231px;
+}
+
+#rightphone {
+    height: 2591px;
+}
+
+#rightphone>h1 {
+    text-align: center;
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+.iphoneg {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.iphoneg1 {
+    width: 209.5px;
+    height: 547px;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+
+.iphoneg1>img:first-child {
+    width: 190px;
+    height: 257px;
+    flex-shrink: 0;
+}
+
+.imgtwo {
+    width: 68px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-top: 25px;
+}
+
+.iphoneg1>h6 {
+    color: #BF4800;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+}
+
+.iphoneg1>h3 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
+}
+
+.iphoneg1>p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+    margin-top: 35px;
+}
+
+.iphoneg1>button {
+
+    width: 45px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #0071E3;
+    transition: all 1s ease-in;
+}
+
+.iphoneg1>button:hover {
+    transform: scale(150%, 150%);
+    background-color: #B344FF;
+    border: none;
+}
+
+.iphoneg1>h5 {
+    color: #06C;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+}
+
+.phonesize {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.size1 {
+    margin-top: 110px;
+    width: 209.5px;
+    height: 113.375px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.size1>h2 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 147.059% */
+    letter-spacing: -0.374px;
+}
+
+.size1>p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+.size1>h5 {
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+    margin-top: -20px;
+}
+
+.size1>h4 {
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+.camera {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.camsize {
+    margin-top: 100px;
+    width: 209.5px;
+    height: 188px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.camsize>img {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.camsize>h2 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+.camsize>p {
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
+}
+
+.bettary {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.batsize {
+    padding-top: 4px;
+    margin-top: 100px;
+    text-align: center;
+    width: 200px;
+    height: 75px;
+}
+.batsize>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.859% */
+letter-spacing: -0.224px;
+}
+.net{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.859% */
+    letter-spacing: -0.224px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+}
+.finish{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
 }
